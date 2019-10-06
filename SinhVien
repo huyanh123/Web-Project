@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Phòng công tác sinh viên ntt.edu</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+
+	
+</head>
+<body>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="" crossorigin="anonymous"></script>
+	<script src="js/js.js"></script>
+	<div class="container">
+		<div id="header-top">		
+			<div id="logo">
+				<a href="#">
+					<img src="img/logoNTT.png" title="" alt=>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div id="nav-menu">
+		<ul>
+			<li><a href="#" id="trangchu">Trang Chủ</a></li>
+			<li>
+				<a href="#">Giới Thiệu</a>
+				<ul class="sub-menu">
+					<li><a href="#">Chức Năng Nhiệm Vụ</a></li>
+					<li><a href="#">Mục tiêu chất lượng</a></li>
+					<li><a href="#">Cơ Cấu tổ chức - nhân sự</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Bảng Vàng Sinh Viên</a>
+				<ul class="sub-menu">
+					<li><a href="#">Hình mẫu sinh viên</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Hoạt Động</a>
+				<ul class="sub-menu">
+					<li><a href="#">Ban Cán Sự</a></li>
+					<li><a href="#">Điểm Rèn Luyện</a></li>
+					<li><a href="#">Chăm Sóc Y Tế</a></li>
+					<li><a href="#">Kỷ Luật Sinh Viên</a></li>
+					<li><a href="#">Cựu Sinh Viên</a></li>
+					<li><a href="#">Quản Lý Ngoại Trú</a></li>
+					<li><a href="#">Cựu Sinh Viên</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Giải Quyết Học Vụ</a>
+				<ul class="sub-menu">
+					<li><a href="#">Biểu Mẫu Phòng Cộng Tác Sinh Viên</a></li>
+					<li><a href="#">Kết Quả Giải Quyết Học Vụ</a></li>
+					<li><a href="#">Quy Trình Giải Quyết Học Vụ</a>
+					</li>
+				</ul>
+			</li>
+			<li><a href="#">Sinh Viên</a>
+				<ul class="sub-menu">
+					<li><a href="#">Hoạt Động Sinh Viên</a></li>
+					<li><a href="#">Tư Vấn hỗ trợ sinh viên</a></li>
+					<li><a href="#">Học Bổng</a>
+					</li>
+					<li><a href="#">Văn Hóa Đạo Đức Sinh Viên</a>
+					</li>
+					<li><a href="#">Kỹ Năng</a>
+					</li>
+					<li><a href="#">Nghiên Cứu Khoa Học</a>
+					</li>
+				</ul>
+			</li>
+			<li><a href="#">CLB-Đội-Nhóm</a>
+				<ul class="sub-menu">
+					<li><a href="#">Giới Thiệu các CLB</a></li>
+					<li><a href="#">Bản Tin CLB</a></li>
+				</ul>
+
+
+			</li>
+			<li><a href="#">Cơ Hội Việc Làm</a>
+				<ul class="sub-menu">
+					<li><a href="#">Khối Ngành Sức Khỏe</a></li>
+					<li><a href="#">Khối Ngành Kinh Tế</a></li>
+					<li><a href="#">Khối Ngành Kỹ Thuật Công Nghệ</a></li>
+					<li><a href="#">Khối Ngành Xã Hội - Nhân Văn</a></li>
+				</ul>
+			</li>
+
+			<li>
+				<a href="#">Văn Bản</a>
+				<ul class="sub-menu">
+					<li><a href="#">Quy Định Quy Chế</a></li>
+					<li><a href="#">Chế Độ Chính Sách</a></li>
+					<li><a href="#">Sổ Tay Sinh Viên</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Tư Vấn Học Tập</a>
+				<ul class="sub-menu">
+					<li><a href="#">Học Liệu Sinh Viên</a></li>
+					<li><a href="#">Cố Vấn Học Tập</a></li>
+					<li><a href="#">Học Online</a></li>
+					<li><a href="#">WorkShop và Lớp kỹ năng</a></li>
+					<li><a href="#">CLB học thuật</a></li>
+					<li><a href="#">Hỗ Trợ đặc biệt</a></li>
+					<li><a href="#">Hỗ Trợ sinh viên quốc tế</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<!--ket thuc nav-bar-->
+	<!-- khung -->
+	<div class="border container">
+
+		<!-- sidebar register -->
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="img/slider1.png" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="img/slider2.png" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="img/slider2.png" class="d-block w-100" alt="...">
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+		<!--end slide-->
+		<br />
+
+		<div class="row" id="textwidget">
+			<div class="col-md-3 col-sm-6"><a href="#"><img src="http://ctsv.ntt.edu.vn/wp-content/uploads/2016/09/kn2.jpg"></a></div>
+			<div class="col-md-3 col-sm-6"><a href="#"><img src="http://ctsv.ntt.edu.vn/wp-content/uploads/2016/09/kn1.jpg"></a></div>
+			<div class="col-md-3 col-sm-6"><a href="3"><img src="http://ctsv.ntt.edu.vn/wp-content/uploads/2016/09/Kn3.jpg"></a></div>
+			<div class="col-md-3 col-sm-6"><a href="#"><img src="http://ctsv.ntt.edu.vn/wp-content/uploads/2016/09/kn4.jpg"></a></div>
+		</div>
+		<!-- tabs -->
+
+		<br />
+		<div class="container">
+			<div class="col-md-8" id="font-tab">
+				<ul class="nav nav-tabs" id="myTab" role="tablist">
+					<li class="nav-item">
+						<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Thông Báo</a>
+
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="contact" aria-selected="false">Tin Tức-Sự Kiện</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Tư vấn và hỗ trợ SV</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Thông Tin tuyển dụng</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Ảnh & Video</a>
+					</li>
+				</ul>
+				<div class="tab-content" id="myTabContent">
+					<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+						<h4>
+							<a href="http://ctsv.ntt.edu.vn/thong-bao-ve-viec-xet-diem-ren-luyen-sinh-vien-hoc-ky-2-nam-hoc-2018-2019/" title="Permalink to THÔNG BÁO: Về việc xét điểm rèn luyện sinh viên Học kỳ 2 năm học 2018 &#8211; 2019">THÔNG BÁO: Về việc xét điểm rèn luyện sinh viên Học kỳ 2 năm học 2018 - 2019</a>
+						</h4>
+
+						<a href="http://ctsv.ntt.edu.vn/thong-bao-ve-viec-xet-diem-ren-luyen-sinh-vien-hoc-ky-2-nam-hoc-2018-2019/"><img title="tb" src="http://ctsv.ntt.edu.vn/wp-content/uploads/2019/09/tb.png" alt="THÔNG BÁO: Về việc xét điểm rèn luyện sinh viên Học kỳ 2 năm học 2018 &#8211; 2019" class="wp-post-image" width="150"height="77 "style="float: left; margin-right: 1em; border: ;" /></a>
+
+						Phòng Công tác Sinh viên căn cứ vào  tiến độ đào tạo của nha trường xin thông báo tới các đơn vị và sinh viên toàn trường về thời gian thực hiện xét điểm rèn luyện đạo đức Sinh viên đợt 2 năm 2018 tức học kỳ II năm học 2018-2019. <a href="http://ctsv.ntt.edu.vn/thong-bao-ve-viec-xet-diem-ren-luyen-sinh-vien-hoc-ky-2-nam-hoc-2018-2019/" title="Permalink to THÔNG BÁO: Về việc xét điểm rèn luyện sinh viên Học kỳ 2 năm học 2018 &#8211; 2019">[&#8230;]</a>
+						<div style="clear: both;"></div>
+						<hr style="color: #dddddd; background-color: #dddddd; height: 1px;" /><h4>
+							<a href="http://ctsv.ntt.edu.vn/thong-bao-danh-sach-cac-ban-sinh-vien-khoa-2019-hoc-tai-co-so-quan-4-chua-nhan-lai-the-sinh-vien-cmnd-sau-khi-lam-the-ngan-hang/" title="Permalink to THÔNG BÁO:  danh sách các bạn sinh viên khóa 2019 học tại cơ sở quận 4 chưa nhận lại thẻ sinh viên, cmnd sau khi làm thẻ ngân hàng">THÔNG BÁO:  danh sách các bạn sinh viên khóa 2019 học tại cơ sở quận 4 chưa nhận lại thẻ sinh viên, cmnd sau khi làm thẻ ngân hàng</a>
+						</h4>
+
+						<a href="http://ctsv.ntt.edu.vn/thong-bao-danh-sach-cac-ban-sinh-vien-khoa-2019-hoc-tai-co-so-quan-4-chua-nhan-lai-the-sinh-vien-cmnd-sau-khi-lam-the-ngan-hang/"><img title="tb" src="http://ctsv.ntt.edu.vn/wp-content/uploads/2019/09/tb.png" alt="THÔNG BÁO:  danh sách các bạn sinh viên khóa 2019 học tại cơ sở quận 4 chưa nhận lại thẻ sinh viên, cmnd sau khi làm thẻ ngân hàng" class="wp-post-image" width="150"height="77 "style="float: left; margin-right: 1em; border: ;" /></a>
+
+						Đây là danh sách các bạn sinh viên khóa 2019 học tại cơ sở quận 4 chưa nhận lại thẻ sinh viên, cmnd sau khi làm thẻ ngân hàng <a href="http://ctsv.ntt.edu.vn/thong-bao-danh-sach-cac-ban-sinh-vien-khoa-2019-hoc-tai-co-so-quan-4-chua-nhan-lai-the-sinh-vien-cmnd-sau-khi-lam-the-ngan-hang/" title="Permalink to THÔNG BÁO:  danh sách các bạn sinh viên khóa 2019 học tại cơ sở quận 4 chưa nhận lại thẻ sinh viên, cmnd sau khi làm thẻ ngân hàng">[&#8230;]</a>
+						<div style="clear: both;"></div>
+						<hr style="color: #dddddd; background-color: #dddddd; height: 1px;" /><h4>
+							<a href="http://ctsv.ntt.edu.vn/thong-bao-cuoc-thi-teambuilding-chu-de-tuoi-tre-sang-tao-nam-trong-khuon-kho-chuong-trinh-lien-hoan-tuoi-tre-sang-tao-lan-thu-10-nam-2019/" title="Permalink to THÔNG BÁO: Cuộc thi Teambuilding &#8211; Chủ đề &#8220;Tuổi trẻ sáng tạo&#8221; nằm trong khuôn khổ chương trình Liên hoan Tuổi trẻ Sáng tạo lần thứ 10 năm 2019">THÔNG BÁO: Cuộc thi Teambuilding - Chủ đề "Tuổi trẻ sáng tạo" nằm trong khuôn khổ chương trình Liên hoan Tuổi trẻ Sáng tạo lần thứ 10 năm 2019</a>
+						</h4>
+
+						<a href="http://ctsv.ntt.edu.vn/thong-bao-cuoc-thi-teambuilding-chu-de-tuoi-tre-sang-tao-nam-trong-khuon-kho-chuong-trinh-lien-hoan-tuoi-tre-sang-tao-lan-thu-10-nam-2019/"><img title="Moi truong hoc tap hien dai giup SV khoi nguon cam hung sang tao" src="http://ctsv.ntt.edu.vn/wp-content/uploads/2019/08/Moi-truong-hoc-tap-hien-dai-giup-SV-khoi-nguon-cam-hung-sang-tao-300x200.jpg" alt="THÔNG BÁO: Cuộc thi Teambuilding &#8211; Chủ đề &#8220;Tuổi trẻ sáng tạo&#8221; nằm trong khuôn khổ chương trình Liên hoan Tuổi trẻ Sáng tạo lần thứ 10 năm 2019" class="wp-post-image" width="150"height="100 "style="float: left; margin-right: 1em; border: ;" /></a>
+
+						Cuộc thi Teambuilding - Chủ đề "Tuổi trẻ sáng tạo" nằm trong khuôn khổ chương trình Liên hoan Tuổi trẻ Sáng tạo lần thứ 10 năm 2019. Cuộc thi nhằm tạo sân chơi bổ ích cho các bạn trẻ đam mê tìm hiểu về kiến thức, xây dựng môi trường giao lưu và chia sẻ giữa các bạn trẻ với nhau. <a href="http://ctsv.ntt.edu.vn/thong-bao-cuoc-thi-teambuilding-chu-de-tuoi-tre-sang-tao-nam-trong-khuon-kho-chuong-trinh-lien-hoan-tuoi-tre-sang-tao-lan-thu-10-nam-2019/" title="Permalink to THÔNG BÁO: Cuộc thi Teambuilding &#8211; Chủ đề &#8220;Tuổi trẻ sáng tạo&#8221; nằm trong khuôn khổ chương trình Liên hoan Tuổi trẻ Sáng tạo lần thứ 10 năm 2019">[&#8230;]</a>
+						<div style="clear: both;"></div>
+						<hr style="color: #dddddd; background-color: #dddddd; height: 1px;" /><h4>
+							<a href="http://ctsv.ntt.edu.vn/thong-bao-ve-viec-nhan-so-tay-sinh-vien/" title="Permalink to THÔNG BÁO: Về việc nhận Sổ tay sinh viên">THÔNG BÁO: Về việc nhận Sổ tay sinh viên</a>
+						</h4>
+
+						<a href="http://ctsv.ntt.edu.vn/thong-bao-ve-viec-nhan-so-tay-sinh-vien/"><img title="71765991_798065843930047_9133686625723744256_n" src="http://ctsv.ntt.edu.vn/wp-content/uploads/2019/09/71765991_798065843930047_9133686625723744256_n-1.jpg" alt="THÔNG BÁO: Về việc nhận Sổ tay sinh viên" class="wp-post-image" width="150"height="151 "style="float: left; margin-right: 1em; border: ;" /></a>
+
+						ĐỐI TƯỢNG NHẬN: Tân sinh viên khóa 2019 chưa nhận sổ tay sinh viên tại các đợt Sinh hoạt đầu khóa; <a href="http://ctsv.ntt.edu.vn/thong-bao-ve-viec-nhan-so-tay-sinh-vien/" title="Permalink to THÔNG BÁO: Về việc nhận Sổ tay sinh viên">[&#8230;]</a>
+						<div style="clear: both;"></div>
+						<hr style="color: #dddddd; background-color: #dddddd; height: 1px;" /><h4>
+							<a href="http://ctsv.ntt.edu.vn/thong-bao-tuyen-tinh-nguyen-vien-lien-hoan-tuoi-tre-sang-tao-tp-ho-chi-minh-lan-10-nam-2019-va-dang-ky-lich-phong-van-tinh-nguyen-vien/" title="Permalink to THÔNG BÁO: Tuyển tình nguyện viên liên hoan tuổi trẻ sáng tạo tp. hồ chí minh lần 10 năm 2019 và đăng ký lịch phỏng vấn tình nguyện viên">THÔNG BÁO: Tuyển tình nguyện viên liên hoan tuổi trẻ sáng tạo tp. hồ chí minh lần 10 năm 2019 và đăng ký lịch phỏng vấn tình nguyện viên</a>
+						</h4>
+
+						<a href="http://ctsv.ntt.edu.vn/thong-bao-tuyen-tinh-nguyen-vien-lien-hoan-tuoi-tre-sang-tao-tp-ho-chi-minh-lan-10-nam-2019-va-dang-ky-lich-phong-van-tinh-nguyen-vien/"><img title="gg" src="http://ctsv.ntt.edu.vn/wp-content/uploads/2019/09/gg.png" alt="THÔNG BÁO: Tuyển tình nguyện viên liên hoan tuổi trẻ sáng tạo tp. hồ chí minh lần 10 năm 2019 và đăng ký lịch phỏng vấn tình nguyện viên" class="wp-post-image" width="150"height="165 "style="float: left; margin-right: 1em; border: ;" /></a>
+
+						👉Bạn yêu thích tham gia các hoạt động tình nguyện? Bạn có nguyện vọng tham gia các chương trình cấp thành để nâng cao kỹ năng bản thân?
+						💝Còn chần chừ gì nữa, đăng ký tham gia Tình nguyện viên chương trình Liên hoan Tuổi trẻ Sáng tạo TP. Hồ Chí Minh thôi nào!<a href="http://ctsv.ntt.edu.vn/thong-bao-tuyen-tinh-nguyen-vien-lien-hoan-tuoi-tre-sang-tao-tp-ho-chi-minh-lan-10-nam-2019-va-dang-ky-lich-phong-van-tinh-nguyen-vien/" title="Permalink to THÔNG BÁO: Tuyển tình nguyện viên liên hoan tuổi trẻ sáng tạo tp. hồ chí minh lần 10 năm 2019 và đăng ký lịch phỏng vấn tình nguyện viên">[&#8230;]</a>
+						<br />
+						<br />
+						<br />
+						<br />
+						<br />
+					</div>
+					<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+					<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+				</div>
+
+				<div class="col-md-4">	
+
+					<div class="right-sidebar">
+						<div id="home-right-sidebar" class="right-sidebar sidebar severus-sidebar">
+							<form role="search" method="get" class="search-form" action="http://ctsv.ntt.edu.vn/">
+							<label>
+								<span class="screen-reader-text">Tìm kiếm cho:</span>
+								<input type="search" class="search-field" placeholder="Tìm kiếm &hellip;" value="" name="s" title="Tìm kiếm cho:" />
+							</label>
+							<input type="submit" class="search-submit" value="Tìm kiếm" />
+							</form>
+						</div>
+						<div id="home-right-sidebar" class="right-sidebar sidebar severus-sidebar">			
+							<div class="textwidget"><a href=""><b>CỔNG THÔNG TIN LIÊN KẾT</b></a>
+							<div class="menu-menu-phu-container"><ul id="menu-menu-phu" class="menu"><li id="menu-item-3031" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3031"><a href="http://ntt.edu.vn/ntt_trangchu/">TRANG CHỦ ĐH NGUYỄN TẤT THÀNH</a></li>
+							<li id="menu-item-2205" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2205"><a href="">VIỆN &#8211; TRUNG TÂM &#8211; PHÒNG &#8211; KHOA</a>
+								<ul class="sub-menu">
+									<li id="menu-item-2212" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2212"><a href="http://www.niie.edu.vn/vi">Viện đào tạo quốc tế</a></li>
+									<li id="menu-item-3216" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3216"><a href="https://www.facebook.com/ctsvntt">Trang hỗ trợ Sinh Viên</a></li>
+									<li id="menu-item-2207" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2207"><a href="http://elib.ntt.edu.vn/">Trung tâm thông tin &#8211; thư viện</a></li>
+									<li id="menu-item-2344" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2344"><a href="http://phongdaotao2.ntt.edu.vn/Default.aspx?MenuID=339">Phòng Đào Tạo</a></li>
+								</ul>
+							</li>	
+							<li id="menu-item-2204" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2204"><a href="">TÀI NGUYÊN HỌC TẬP &#8211; NGHIÊN CỨU</a>
+								<ul class="sub-menu">
+									<li id="menu-item-2202" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2202"><a href="http://tailieuso.ntt.edu.vn/">Thư viện điện tử</a></li></div>
+								</div>		
+								<div id="home-right-sidebar" class="right-sidebar sidebar severus-sidebar">		
+									<h2 class="severus-wg-title">Bài viết mới</h2>		
+								<ul>
+									<li>
+										<a href="http://ctsv.ntt.edu.vn/cuoc-thi-hung-bien-tieng-viet-cho-luu-hoc-sinh-lao-dang-hoc-tap-tai-viet-nam/">Cuộc thi: “Hùng Biện Tiếng Việt Cho Lưu Học Sinh Lào Đang Học Tập Tại Việt Nam”</a>
+									</li>
+									<li>
+										<a href="http://ctsv.ntt.edu.vn/le-bao-ve-khoa-luan-tot-nghiep-va-tuyen-dung-truc-tiep-cua-sinh-vien-khoa-luat-dh-nguyen-tat-thanh/">Lễ bảo vệ Khóa luận tốt nghiệp và tuyển dụng trực tiếp của sinh viên khoa Luật ĐH Nguyễn Tất Thành</a>
+									</li>
+									<li>
+										<a href="http://ctsv.ntt.edu.vn/doc-dao-chuyen-de-bao-ve-khoa-luan-tot-nghiep-theo-huong-ung-dung-thuc-hanh/">Độc đáo chuyên đề bảo vệ khóa luận tốt nghiệp theo hướng ứng dụng thực hành</a>
+									</li>
+									<li>
+										<a href="http://ctsv.ntt.edu.vn/hoi-thao-ve-co-hoi-viec-lam-thu-nhap-cao-va-toa-dam-voi-cac-doi-tac-chlb-duc/">Hội thảo về cơ hội việc làm thu nhập cao và tọa đàm với các đối tác CHLB Đức</a>
+									</li>
+									<li>
+										<a href="http://ctsv.ntt.edu.vn/ra-mat-ban-chap-hanh-doan-tncs-ho-chi-minh-truong-dh-nguyen-tat-thanh-nhiem-ky-vii/">Ra mắt Ban chấp hành Đoàn TNCS Hồ chí Minh Trường ĐH Nguyễn Tất Thành nhiệm kỳ VII</a>
+									</li>
+								</ul>
+							</div>								
+						</div>
+					</div>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+				</body>
+				</html>
